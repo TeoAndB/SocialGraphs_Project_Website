@@ -1,0 +1,12 @@
+baseURL = "https://southpark_networks.org/"
+languageCode = "en-us"
+title = "South Park Awesome Networks!"
+theme = "hyde"
+[Menus]
+  main = [
+      {Name = "Sources: South Park Archives", URL = "https://southpark.fandom.com/wiki/South_Park_Archives"}
+  ]
+[params]
+  description = "We come to present you the best networks and text analysis from the South Park Archives Wiki fandoms.  Respect our authoritah!"
+  themeColor = "theme-base-08"
+  layoutReverse = true
