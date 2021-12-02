@@ -95,7 +95,7 @@ Let's do bining of the degree distribution:
 
 It seems that the node degrees tend to follow a power-law distribution, but the graph is too small for this to be certain. More data would be needed to confirm this 
 
-Oh well, that's it for the Network Visualization and Analsys. Click on 'Home' on the sidebar and check out the other sections for more fun!
+Oh well, that's it for the Network Visualization and Analysis. Click on 'Home' on the sidebar and check out the other sections for more fun!
 
 
 
