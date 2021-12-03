@@ -27,7 +27,9 @@ Let us visualize the network of the whole South Park Series. This is how the net
   - episode appearance
 
 - **Edges**: each character will be linked to the other characters based on their interactions given by the Wiki pages
-![South Park Network - nodes colored based on gender](/networks_img/SPGraph_gendercolor.png)
+
+{{< figure src="/networks_img/SPGraph_gendercolor3.png" width="1000">}}
+
 That is a huge network!
 It has 1639 nodes and 5736 edges! The nodes and edges are colored based on gender:
 - Male: blue 
@@ -64,9 +66,10 @@ The source code can be found again in the [GitHub repository](https://github.com
 For those of you who do not know, this game is the first politically correct game made for children, which is based on the South Park Series.
 Reveal the truth! How many characters are actually in the game?
 
-![South Park Network - game color](/networks_img/SPGraph_gamecolor.png)
+![South Park Network - game color](/networks_img/SPGraph_gamecolor3.png)
 
-The cololring of the nodes and edges are based on the game roles:
+Now we can see the nodes much more clearly! The names are displayed for the top 7 most connected nodes. 
+The coloring of the nodes and edges are based on the game roles:
 - Playable Characters: green
 - Land of Zaron: lime green
 - Enemies: red
