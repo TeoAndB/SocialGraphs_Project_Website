@@ -1,8 +1,9 @@
 ---
 title:  "Graphs! Series vs. the Game!"
-date: 2021-11-26T18:30:01+01:00
+date: 2021-12-04T18:30:01+01:00
 draft: true
 description: 
+    "This is the home page to reveal the most awesome networks and stats about South Park!"
 ---
 Purpose:
 ---
@@ -28,7 +29,7 @@ Let us visualize the network of the whole South Park Series. This is how the net
 
 - **Edges**: each character will be linked to the other characters based on their interactions given by the Wiki pages
 
-{{< figure src="/networks_img/SPGraph_gendercolor3.png" width="1000">}}
+{{< figure  src="/networks_img/SPGraph_gendercolor3.png" width="1000">}}
 
 That is a huge network!
 It has 1639 nodes and 5736 edges! The nodes and edges are colored based on gender:
