@@ -43,7 +43,7 @@ Let us do more Network Analysis and plot the in- and out- degree distributions:
 
 ![South Park Network - in and out degree distribution](/networks_img/in_out_degree_distr.png)
 
-Could this be? It seems that both the in- and the out- degree binings follow a power-law distribution!
+Could this be? It seems that both the in- and the out- degree histograms follow a power-law distribution!
 In order to confirm, let's bin again the degree (in and out degrees combined) using the log-log scale:
 
 ![South Park Network - degree distribution](/networks_img/degree_bining.png)
@@ -84,18 +84,18 @@ Let us extract the Game Network only:
 
 ![South Park Game Network](/networks_img/SPGameGraph.png)
 
-Now that's a nice graph, with images! If you don't know who those characters are, we highly recommend to watch some of the SP episodes. 
+So pretty! The characters in the images are the main SP and game characters: Eric Cartman, The New Kid, Stan Marsh, Wendy Testaburger (we had to show one female at least!), Kenny and Kyle. 
 The Stick of Truth network has 126 nodes and 708 links.
 
 Node Jessica Rodriguez has the minimum the degree value of 1. Node Eric Cartman (again!?) has the maximum the degree value of 60. And he is not even the main game character!
 The New Kid, the guy you play with in the game, has only 54 links! And if that's not sad enough, in the graph drawing above he is obstructed by fat Cartman... poor him :(
 
-![South Park Network - cartman talk](/networks_networks_img/cartman_stick_of_truth.jpg)
+![South Park Network - cartman talk](/networks_img/cartman_stick_of_truth.jpg)
 
 **More network stats!**
 Let's do bining of the degree distribution:
 
-![South Park Network - degree distribution](/networks_networks_img/SPGameGraph_bining_degree.png)
+![South Park Network - degree distribution](/networks_img/SPGameGraph_bining_degree.png)
 
 It seems that the node degrees tend to follow a power-law distribution, but the graph is too small for this to be certain. More data would be needed to confirm this 
 
