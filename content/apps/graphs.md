@@ -12,7 +12,9 @@ This section reveals the most awesome network visualizations and network analysi
 
 Networks are presented based on the characters from the whole SP series and the characters only present in the 'Stick of Truth' game. Let's see what can we discover!
 
-For further references regarding the source code, one can check the notebook provided in this [GitHub repository](https://github.com/TeoAndB/SouthPark_NetworkAnalysis) - Part B - Data Analysis (Section: Networks and Visualization).
+Note: this section is rather meant to be engaging and **informal**. For a more formal in-depth analysis and the source code, one can check the notebook provided in
+this [GitHub repository](https://github.com/TeoAndB/SouthPark_NetworkAnalysis) - Part_B_Data_Analysis (Section:
+Networks and Visualization).
 
 South Park Network - for the whole Series!
 ---
@@ -99,7 +101,7 @@ Let's do bining of the degree distribution:
 
 It seems that the node degrees tend to follow a power-law distribution, but the graph is too small for this to be certain. More data would be needed to confirm this 
 
-Oh well, that's it for the Network Visualization and Analysis. Click on 'Home' on the sidebar and check out the other sections for more fun!
+#### Oh well, that's it for the Network Visualization and Analysis. Click on 'Home' on the sidebar and check out the other sections for more fun!
 
 
 

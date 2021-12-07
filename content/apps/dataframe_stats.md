@@ -8,7 +8,7 @@ description:
 Purpose:
 ---
 This section will present some DataFrame visualizations. 
-For further information regarding how this DataFrame was compiled, one can check the notebook provided in this [GitHub repository](https://github.com/TeoAndB/SouthPark_NetworkAnalysis) - Part A - Data Mining (Section: DataFrame).
+For further information regarding how this DataFrame was compiled, one can check the notebook provided in this [GitHub repository](https://github.com/TeoAndB/SouthPark_NetworkAnalysis) - Part_A_Data_Mining (Section: DataFrame).
 
 The Data:
 ---
@@ -30,7 +30,7 @@ Data Visualization!
 Let's count the character role categories of the entire SP Series:
 
 ![South Park Network - in and out degree distribution](/dataframe_img/DF_series_categories_count.png)
-The bar chart above shows, that while most of the South Park characters remain uncategorized, thre is yet a wide range of about 19 categories. It seems that one of the largest categories are the 4th Graders and the Monsters. This is expected, as the main SP characters are 4th graders, and there are a lot of weird monsters and talking animals in the series. Another noticeable categoriy is the Political Celebrities, which South Park loves to make fun of.
+The bar chart above shows, that while most of the South Park characters remain uncategorized, there is yet a wide range of about 19 character categories for the SP series. It seems that one of the largest categories are the 4th Graders and the Monsters. This is expected, as the main SP characters are 4th graders, and there are a lot of weird monsters and talking animals in the series. Another noticeable category is the Political Celebrities, which South Park loves to make fun of.
 
 
 Now let's take a look at the gender distribution:
@@ -38,19 +38,19 @@ Now let's take a look at the gender distribution:
 
 The bar chart on gender attributes of the DataFrame object reveals that most of the SouthPark characters are male. Less than half of the characters are female and a small amount of the characters' gender is unknown (including the non-binary gender). Considering the character categories discussed above, this is somewhat expected as some SP characters are not human.
 
-We have 136 races (!!) so let's count the occurencies of the top 5:
+We have 136 races (!!), so let's count the occurencies of the top 5:
 
 ![South Park Network - in and out degree distribution](/dataframe_img/DF_topraces_count.png)
 
 The counts of the top races of the SP characters is displayed in the bar plot above. Unfortunately most of the SP characters did not have assigned a race or it was not properly retrieved from the TXT files. But as far as the TXT files were looked through, the first reason seems more plausible. The most frequent revealed race of the South Park characters is Caucasian. It is expected that most of the SP characters are caucasian, as the series action takes place in the fictional South Park town which is supposedly located in the Colorado state in the US. Following this, it is also explainable why the second most-frequent race in the series is African-American.
 
-Last but not least, which character is worthy to be in the Stick of Truth game?
+Last but not least, which characters are worthy to be in the Stick of Truth game?
 
 ![South Park Network - in and out degree distribution](/dataframe_img/DF_count_game.png)
 
 The counts above regarding the Stick of Truth Game is entirely different. Since the South Park universe is huge, it is expected that most of the characters are not in the Stick of Truth Game.
 
-Referring to the characters' categories in the game, the most frequent one is 'Other characters', followed by the 'Land of Zaron' and 'Enemies'. Playing the game, one can confirm that yes, most of the game characters belong to the 'Land of Zaron', which is the ally team assigned to find the Stick of Truth. A lot of the characters are not categorized, as the game has a lot of characters which have a small appearance.
+Referring to the characters' categories in the game, the most frequent one is 'Other characters', followed by the 'Land of Zaron' and 'Enemies'. Playing the game, one can confirm that yes, a lot of the game characters belong to the 'Land of Zaron', which is the ally land assigned to find the stick of truth. However, most of the other characters make only a small appearance in the game (but you can still battle them!), so it makes sense why they are not categorized. 
 
 In the game, one can battle with most characters, however they are not considered the main enemies of the story. This explains why the 'Enemies' category is not as large as the 'Other characters' category.
 
