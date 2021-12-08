@@ -1,7 +1,7 @@
 ---
 title:  "Graphs! Series vs. the Game!"
 date: 2021-12-04T18:30:01+01:00
-draft: true
+draft: false
 description: 
     "This is the home page to reveal the most awesome networks and stats about South Park!"
 ---
