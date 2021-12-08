@@ -1,5 +1,5 @@
 ---
-title: "Sentiment Analysis - who felt sad when Kenny died?"
+title: "Sentiment Analysis - how do our characters feel?"
 date: 2021-12-08T18:30:01+01:00
 draft: false
 description: 
