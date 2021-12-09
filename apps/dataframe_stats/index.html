@@ -1,0 +1,75 @@
+<!doctype html><html xmlns=http://www.w3.org/1999/xhtml xml:lang=en-us lang=en-us>
+<head>
+<link href=https://gmpg.org/xfn/11 rel=profile>
+<meta charset=utf-8>
+<meta name=generator content="Hugo 0.89.4">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Reveal the Stick of Truth! And DataFrame stats! &#183; South Park Awesome Networks!</title>
+<meta name=description content="This is the home page to reveal the most awesome networks and stats about South Park!">
+<link type=text/css rel=stylesheet href=https://SocialGraphs_Project_Website.github.io/css/print.css media=print>
+<link type=text/css rel=stylesheet href=https://SocialGraphs_Project_Website.github.io/css/poole.css>
+<link type=text/css rel=stylesheet href=https://SocialGraphs_Project_Website.github.io/css/syntax.css>
+<link type=text/css rel=stylesheet href=https://SocialGraphs_Project_Website.github.io/css/hyde.css>
+<link color=#cc4022 rel=stylesheet href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+<link rel=apple-touch-icon-precomposed sizes=144x144 href=/apple-touch-icon-144-precomposed.png>
+<link rel="shortcut icon" href=/favicon.png>
+</head>
+<body class="theme-base-08 layout-reverse">
+<aside class=sidebar>
+<div class="container sidebar-sticky">
+<div class=sidebar-about>
+<a href=https://SocialGraphs_Project_Website.github.io/><h1>South Park Awesome Networks!</h1></a>
+<p class=lead>
+We come to present you the best networks and text analysis from the South Park Wiki Archives. Respect our authoritah!
+</p>
+</div>
+<nav>
+<ul class=sidebar-nav>
+<li><a href=https://SocialGraphs_Project_Website.github.io/>Home</a> </li>
+<li><a href=https://github.com/TeoAndB/SouthPark_NetworkAnalysis> Data Analysis: check out this Notebook! </a></li><li><a href=https://southpark.fandom.com/wiki/South_Park_Archives> Data Source: South Park Archives </a></li>
+</ul>
+</nav>
+<p>&copy; 2021. All rights reserved. </p>
+</div>
+</aside>
+<main class="content container">
+<div class=post>
+<h1>Reveal the Stick of Truth! And DataFrame stats!</h1>
+<time datetime=2021-11-26T18:30:01+0100 class=post-date>Fri, Nov 26, 2021</time>
+<h2 id=purpose>Purpose:</h2>
+<p>This section will present some DataFrame visualizations.
+For further information regarding how this DataFrame was compiled, one can check the notebook provided in this <a href=https://github.com/TeoAndB/SouthPark_NetworkAnalysis>GitHub repository</a> - Part_A_Data_Mining (Section: DataFrame).</p>
+<h2 id=the-data>The Data:</h2>
+<p>The information in the table above is a sneak-peak into the DataFrame object we have created using the API content of the Wiki pages of the South Park Archives (the Data Source hyperlink on the sidebar will take you to the landing page).
+The name of the characters, as well as the attributes presented below, were retrieved using the APIs of the Wiki archives.</p>
+<p><img src=/dataframe_img/SocialGraphs_DataFrame_2.png alt="South Park Network - in and out degree distribution">
+The DataFrame object contains:</p>
+<ul>
+<li>Name of each South Park character (but the URL name containing special characters)</li>
+<li>Real Name of each South Park character (as it appears on the Wiki page)</li>
+<li>Game Role in the &lsquo;Stick of Truth&rsquo; Game: Playable Characters, Enemies, Land of Zaron, Merchants or Not in the Game</li>
+<li>Series Role, which refers to the role categories in the whole series (main character, major-supportive character, or other if not specified)</li>
+<li>Gender: Male, Female or Unknown</li>
+<li>Race: race of each South Park character (all 136 of them!)</li>
+<li>Appearance: Episode appearance</li>
+</ul>
+<h2 id=data-visualization>Data Visualization!</h2>
+<p>Let&rsquo;s count the character role categories of the entire SP Series:</p>
+<p><img src=/dataframe_img/DF_series_categories_count.png alt="South Park Network - in and out degree distribution">
+The bar chart above shows, that while most of the South Park characters remain uncategorized, there is yet a wide range of about 19 character categories for the SP series. It seems that one of the largest categories are the 4th Graders and the Monsters. This is expected, as the main SP characters are 4th graders, and there are a lot of weird monsters and talking animals in the series. Another noticeable category is the Political Celebrities, which South Park loves to make fun of.</p>
+<p>Now let&rsquo;s take a look at the gender distribution:
+<img src=/dataframe_img/DF_gender_count.png alt="South Park Network - in and out degree distribution"></p>
+<p>The bar chart on gender attributes of the DataFrame object reveals that most of the SouthPark characters are male. Less than half of the characters are female and a small amount of the characters' gender is unknown (including the non-binary gender). Considering the character categories discussed above, this is somewhat expected as some SP characters are not human.</p>
+<p>We have 136 races (!!), so let&rsquo;s count the occurencies of the top 5:</p>
+<p><img src=/dataframe_img/DF_topraces_count.png alt="South Park Network - in and out degree distribution"></p>
+<p>The counts of the top races of the SP characters is displayed in the bar plot above. Unfortunately most of the SP characters did not have assigned a race or it was not properly retrieved from the TXT files. But as far as the TXT files were looked through, the first reason seems more plausible. The most frequent revealed race of the South Park characters is Caucasian. It is expected that most of the SP characters are caucasian, as the series action takes place in the fictional South Park town which is supposedly located in the Colorado state in the US. Following this, it is also explainable why the second most-frequent race in the series is African-American.</p>
+<p>Last but not least, which characters are worthy to be in the Stick of Truth game?</p>
+<p><img src=/dataframe_img/DF_count_game.png alt="South Park Network - in and out degree distribution"></p>
+<p>The counts above regarding the Stick of Truth Game is entirely different. Since the South Park universe is huge, it is expected that most of the characters are not in the Stick of Truth Game.</p>
+<p>Referring to the characters' categories in the game, the most frequent one is &lsquo;Other characters&rsquo;, followed by the &lsquo;Land of Zaron&rsquo; and &lsquo;Enemies&rsquo;. Playing the game, one can confirm that yes, a lot of the game characters belong to the &lsquo;Land of Zaron&rsquo;, which is the ally land assigned to find the stick of truth. However, most of the other characters make only a small appearance in the game (but you can still battle them!), so it makes sense why they are not categorized.</p>
+<p>In the game, one can battle with most characters, however they are not considered the main enemies of the story. This explains why the &lsquo;Enemies&rsquo; category is not as large as the &lsquo;Other characters&rsquo; category.</p>
+<h4 id=what-a-nice-dataframe-we-have-so-many-attributes-which-ones-should-be-displayed-in-the-graphs-go-home-and-find-out-by-clicking-on-the-next-section-graphs-series-vs-the-game>What a nice DataFrame we have&mldr; So many attributes, which ones should be displayed in the graphs? Go &lsquo;Home&rsquo; and find out by clicking on the next section: Graphs! Series vs. the Game!</h4>
+</div>
+</main>
+</body>
+</html>

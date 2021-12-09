@@ -1,0 +1,48 @@
+<!doctype html><html xmlns=http://www.w3.org/1999/xhtml xml:lang=en-us lang=en-us>
+<head>
+<link href=https://gmpg.org/xfn/11 rel=profile>
+<meta charset=utf-8>
+<meta name=generator content="Hugo 0.89.4">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Sentiment Analysis - how do our characters feel? &#183; South Park Awesome Networks!</title>
+<meta name=description content="This is meta description">
+<link type=text/css rel=stylesheet href=https://SocialGraphs_Project_Website.github.io/css/print.css media=print>
+<link type=text/css rel=stylesheet href=https://SocialGraphs_Project_Website.github.io/css/poole.css>
+<link type=text/css rel=stylesheet href=https://SocialGraphs_Project_Website.github.io/css/syntax.css>
+<link type=text/css rel=stylesheet href=https://SocialGraphs_Project_Website.github.io/css/hyde.css>
+<link color=#cc4022 rel=stylesheet href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+<link rel=apple-touch-icon-precomposed sizes=144x144 href=/apple-touch-icon-144-precomposed.png>
+<link rel="shortcut icon" href=/favicon.png>
+</head>
+<body class="theme-base-08 layout-reverse">
+<aside class=sidebar>
+<div class="container sidebar-sticky">
+<div class=sidebar-about>
+<a href=https://SocialGraphs_Project_Website.github.io/><h1>South Park Awesome Networks!</h1></a>
+<p class=lead>
+We come to present you the best networks and text analysis from the South Park Wiki Archives. Respect our authoritah!
+</p>
+</div>
+<nav>
+<ul class=sidebar-nav>
+<li><a href=https://SocialGraphs_Project_Website.github.io/>Home</a> </li>
+<li><a href=https://github.com/TeoAndB/SouthPark_NetworkAnalysis> Data Analysis: check out this Notebook! </a></li><li><a href=https://southpark.fandom.com/wiki/South_Park_Archives> Data Source: South Park Archives </a></li>
+</ul>
+</nav>
+<p>&copy; 2021. All rights reserved. </p>
+</div>
+</aside>
+<main class="content container">
+<div class=post>
+<h1>Sentiment Analysis - how do our characters feel?</h1>
+<time datetime=2021-12-08T18:30:01+0100 class=post-date>Wed, Dec 8, 2021</time>
+<p>While we wanted to do a sentiment analysis, much like with the Zelda project, we unfortunately did not have any appropriate data. Wiki pages tend to be written in very neutral language, which means that while methodologies like the LabMT do work, they do produce strange results. Essentially, instead of analysing and finding the sentiment of each character, one could only find the sentiment of the character’s Wiki page itself. As will be shown by the examples below, the associated sentiment does not match with the actual character’s personality.</p>
+<p>Sometimes, one could have been lucky enough to find some trivia or quotes on some Wikis, but unfortunately this was not the case. If this was true for our Wiki, it would have been possible to extract only the quotes, like we did with the attributes, and analyse those.</p>
+<p>We even tried to get data from sources like this: <a href=https://github.com/deankeinan/SouthPark-rnn/blob/master/samples/sample-big.txt>https://github.com/deankeinan/SouthPark-rnn/blob/master/samples/sample-big.txt</a> , which is someone&rsquo;s project where they fed a neural network 19 seasons of South Park. Unfortunately, when looking at the samples of the text, a lot of the created sentences did not make sense and thus would have probably provided an even worse base for the sentiment analysis. Especially because these quotes are not real, but generated.</p>
+<p>We still analysed sentiment of 14 major characters, including the main characters. The variations are visible when looking at a character like Kenny. In the show, Kenny is a very happy character, and mostly positive, however, he does die a LOT. This means that his character’s Wiki page has the most negative sentiment, out the tested characters. Kenny scored 0.324.</p>
+<p>Whereas, when looking at a person like Liane Cartman, Cartman’s mother, one would expect her sentiment to be negative, because she has quite a tough life in the show. However, she scored the happiest on the sentiment rating, at 0.677.</p>
+<p>Furthermore, 8 out of the characters had scores of 0.5, excluding Kenny and Liane, that is 2/3, which is strange when examining the characters themselves. Among these were Jimmy Valmer, Mr Mackey, Shelly Marsh, and Kyle. All of these characters have an extremely different outlook on life, and thus it did not make much sense to analyse all of the 1870 characters, especially because this would take around 3 hours to run.</p>
+</div>
+</main>
+</body>
+</html>
