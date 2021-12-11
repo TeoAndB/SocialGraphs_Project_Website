@@ -1,4 +1,4 @@
- .sidebar {
+.sidebar {
   display: none !important;
 }
 
@@ -10,7 +10,7 @@
 }
 
 .container {
-  width: 70%;
+  width: 100%;
   float: none;
   display: initial;
   padding-left:  1rem;
