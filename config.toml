@@ -1,4 +1,4 @@
-baseURL = "https://SocialGraphs_Project_Website.github.io/"
+baseURL = "https://socialgraphs-south-park.netlify.app/"
 languageCode = "en-us"
 title = "South Park Awesome Networks!"
 theme = "hyde"
