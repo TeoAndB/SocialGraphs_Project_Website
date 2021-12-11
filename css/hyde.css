@@ -39,7 +39,7 @@ html {
     font-size: 16px;
   }
 }
-@media (min-width: 48em) {
+@media (min-width: 58em) {
   html {
     font-size: 20px;
   }
@@ -61,11 +61,11 @@ html {
 }
 @media (min-width: 48em) {
   .sidebar {
-    position: static;
+    position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
-    width: 30rem;
+    width: 18rem;
     text-align: left;
   }
 }
@@ -128,13 +128,13 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .content {
-    max-width: 48rem;
-    margin-left: 10rem;
+    max-width: 38rem;
+    margin-left: 20rem;
     margin-right: 2rem;
   }
 }
 
-@media (min-width: 48em) {
+@media (min-width: 64em) {
   .content {
     margin-left: 22rem;
     margin-right: 4rem;
@@ -155,11 +155,11 @@ a.sidebar-nav-item:focus {
   }
   .layout-reverse .content {
     margin-left: 2rem;
-    margin-right: 15rem;
+    margin-right: 20rem;
   }
 }
 
-@media (min-width: 48em) {
+@media (min-width: 64em) {
   .layout-reverse .content {
     margin-left: 4rem;
     margin-right: 22rem;
@@ -172,7 +172,7 @@ a.sidebar-nav-item:focus {
  * Themes
  *
  * As of v1.1, Hyde includes optional themes to color the sidebar and links
- * within blog content. To use, add the class of your choosing to the `body`.
+ * within blog posts. To use, add the class of your choosing to the `body`.
  */
 
 /* Base16 (http://chriskempson.github.io/base16/#default) */
