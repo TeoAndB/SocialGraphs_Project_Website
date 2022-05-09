@@ -1,6 +1,6 @@
 baseURL = "https://SocialGraphs_Project_Website.github.io/"
 languageCode = "en-us"
-title = "South Park Awesome Networks!"
+title = "South Park Awesome Netwrwewwww"
 theme = "hyde"
 [Menus]
   main = [
@@ -9,5 +9,4 @@ theme = "hyde"
   ]
 [params]
   description = "We come to present you the best networks and text analysis from the South Park  Wiki Archives.  Respect our authoritah!"
-  themeColor = "theme-base-08"
-  layoutReverse = true
+  themeColor = "theme-base-0b"
